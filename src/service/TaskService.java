@@ -46,6 +46,6 @@ public void deleteTask(int id){
     System.out.println("Task not found.");
     return;
   }
-  task.remove(task);
+  tasks.remove(task);
 }
 }
