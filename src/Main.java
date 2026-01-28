@@ -23,7 +23,7 @@ public class Main{
     //Delete
     service.deleteTask(1);
     System.out.println("\nAfter deleting task 1:");
-    printTasks(service)
+    printTasks(service);
 }
 
   private static void printTasks(TaskService service) {
