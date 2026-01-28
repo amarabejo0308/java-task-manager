@@ -23,3 +23,11 @@ Designed to simulate real-world backend logic without external frameworks.
 - Persist data using a database
 - Expose functionality via REST API
 - Add unit tests
+  
+## ▶️ How to Run
+
+### Compile
+javac -d out src\**\*.java
+
+### Run
+java -cp out Main
